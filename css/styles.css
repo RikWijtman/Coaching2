@@ -1,0 +1,201 @@
+body {
+    overflow-x: hidden;
+    background-color: rgb(250, 245, 202);
+}
+
+header {
+    background-image: url('../img/Plant.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 200px;
+    width: 100%;
+
+    position: relative;
+    z-index: 2;
+}
+
+footer {
+    background-image: url('../img/Butterfly.JPG');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    height: 200px;
+    width: 100%;
+
+    position: relative;
+    z-index: 2;
+}
+
+main {
+    width: 120%;
+    margin-top: -20px;
+    margin-left:5%;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    /*box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1), 10px 0px 10px rgba(0, 0, 0, 0.1);*/
+
+    position: relative;
+    z-index: 1;
+}
+
+
+h1 {
+    font-size: 60px;
+    margin: 0; 
+    margin-right: 700px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 35px;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.profile {
+    width: 60%;
+    margin-top: 20px
+}
+
+  #Profile {
+    background-color: white;
+    margin-top: -20px;
+    margin-left: 25%;
+    height: 700px;
+
+    text-align: center;
+  }
+
+  #rightBottom {
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 25%;
+    height: auto;
+    padding-bottom: 10px;
+
+    text-align: center;
+  }
+
+  .qu {
+    
+    margin-bottom: -40px;
+    font-size: 50px;
+    color: rgb(131, 131, 131);
+  }
+
+  #prices {
+    padding-top: 80px;
+  }
+
+  #reviews {
+    padding-top: 80px;
+  }
+
+  @media only screen and (min-width: 601px) {
+      
+    .columns {
+      display: flex;
+    }
+
+    .column {
+      flex: 1;
+      padding: 20px; 
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    main {
+      margin-left: 2vw;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    h1 {
+      font-size: 45px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 14px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    main {
+      width: 85vw;
+      height: 1550px;
+      margin-left: 8vw;
+    }
+
+    #Profile {
+      margin-top: 50px;
+      width: 78vw;
+      margin-left: 11vw;
+      height: 550px;
+    }
+
+    .profile {
+      width: 60vw;
+    }
+
+    .qu {
+      font-size: 35px;
+    }
+
+    #rightBottom {
+      width: 85vw;
+      margin-left: 7vw;
+      height: 400px;
+    }
+
+    #prices {
+      padding-top: 20px;
+    }
+
+    #reviews {
+      padding-top: 20px;
+    }
+
+
+  }
+  @media only screen and (max-width: 400px) {
+
+    main {
+      width: 85vw;
+      height: 1650px;
+      margin-left: 7vw;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+
+    main {
+      width: 85vw;
+      height: 1750px;
+      margin-left: 7vw;
+    }
+  }
